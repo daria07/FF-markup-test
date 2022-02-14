@@ -243,16 +243,23 @@ export default {
     margin-top: 20px; 
   }
   
-  .dontknow::before {
-    content: '';
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    border-radius: 3px;
-    margin-right: 15px;
+  .dontknow {
     width: 24px;
     height: 24px;
     display: inline-block;
-    cursor: pointer; 
+    margin: 0 15px 0 0;
+    border: none;
+  
+    &::before {
+      content: '';
+      background: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      border-radius: 3px;
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      cursor: pointer; 
+    }
   }
   
   .dontknow:checked::before {
