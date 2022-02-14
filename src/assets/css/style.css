@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'GoodPro';
+  src: local('GoodPro'), local('GoodPro-Medium'),
+      url('../fonts/GoodPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GoodPro-Medium.woff2') format('woff2'),
+      url('../fonts/GoodPro-Medium.woff') format('woff'),
+      url('../fonts/GoodPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GoodPro';
+  src: local('GoodPro'), local('GoodPro-Regular'),
+      url('../fonts/GoodPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GoodPro-Regular.woff2') format('woff2'),
+      url('../fonts/GoodPro-Regular.woff') format('woff'),
+      url('../fonts/GoodPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background: #F8F8F8;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: GoodPro;
+  font-size: 16px;
+  font-weight: 400;
+}
+  
+section {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
+
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+a, input, button {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-appearance: none;
+  font-family: GoodPro; 
+}
+
+select {
+  font-family: GoodPro; 
+}
+
+button {
+  cursor: pointer;
+  border: 0; 
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1270px; 
+  padding: 0 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+
+  
+  
+  
+
+  
+  
