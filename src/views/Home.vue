@@ -1,7 +1,7 @@
 <template>
     <section class="section-main">
       <div class="container">
-        <h1>Ваше налоговое резидентство1</h1>
+        <h1>Ваше налоговое резидентство</h1>
         <div class="subtitle">Раскройте источник средств</div>
         <div class="signup-steps"> 
           <div class="signup-step step-finished"></div>
